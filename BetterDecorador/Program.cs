@@ -41,7 +41,7 @@ namespace BetterDecorador
         /// <returns>A decorated default string.</returns>
         private static string Decor()
         {
-            return Decor("DefaultString", '*', 3);
+            return Decor("User did not specify args !", '=', 3);
         }
     }
 }
